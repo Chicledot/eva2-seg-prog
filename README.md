@@ -81,9 +81,36 @@ Software, usuarios o servicios que no sean necesarios o que simplemente no se es
 Cerrar puertos que no estén en funcionamiento, instalar cortafuegos, estableciendo políticas de contraseñas seguras, bloquear la transferencia de archivos entre programas, usar datos encriptados siempre cuando sea posible, etc.
 
 
-CAPTCHA, este sirve para distinguir bots de humanos reales, lo cual, reduce el spam, y el descifrado de contraseñas.
+CAPTCHA, sirve para distinguir bots de humanos reales, lo cual, reduce el spam, y el descifrado de contraseñas.
 
 Autenticacion Robusta: ya que el captcha identifica si el usuario ingresando es humano o no, este se encarga de identificar es quien ingresa a el sistema sea quien dice ser, esto se logra a travez de preguntas a el mismo usuario que este debería de saber: "Algo que tiene el usuario (Tarjetas Clavez, Token SMS)", "Algo que sabe el usuario (Claves)" o "Algo que hace o es el usuario (como factores biométricos)"
+
+¿Qué significa PCI DSS y cuál es su propósito principal?
+Payment Card Industry Security Standards Council (o al Español Consejo de Estandares de Seguridad de la Industria de Tarjetas de Pago)
+Evita fraudes de robo de datos de tarjetas, al igual que, evita el robo de los datos de los dueños de estas mismas tarjetas. 
+Permite que la comunicacion y cooperacion de distintas compañias de tarjetas de credito (en lo que se trata de los datos de estas mismas) tengan una protección mayor.
+
+¿A qué tipo de empresas afecta PCI DSS?
+Todo tipo de empresa que maneje datos de tarjeta de credito o debito, por ejemplo, mastercard, visa, Discover, etc.
+
+Menciona tres ejemplos de datos que PCI DSS busca proteger.
+Coordenadas de tarjetas de credito/debito
+Robo de datos de usuarios/dueños de estas tarjetas.
+Empresas que gestionan pagos de manera online.
+
+¿Por qué es importante la certificación PCI DSS para las empresas?
+Porque el certificado de PCI DSS demuestra que el usuario puede confiar de que sus datos no seran robados, y estan en manos seguras, en si, es una manera de demostrar
+que tu empresa no es estafa.
+
+
+Describe brevemente tres de los doce requisitos de PCI DSS.
+
+1.-Disponer de un Firewall bien mantenido e implementado
+2.-Evitar el uso de Ip's o de Contraseñas por defecto, o sea, cambiar estos datos para asegurar la red.
+3.-Dotar de protección a los sistemas de almacenamiento.
+
+
+
 
 
 
